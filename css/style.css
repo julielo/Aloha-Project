@@ -1,4 +1,4 @@
-/*** Fonts area ***/
+/*** Fonts arearm ***/
   @font-face {
     font-family: 'playfair_bold';
     src: url('fonts/playfair-bold.eot');
@@ -100,13 +100,22 @@ h1{
   display:none;
 }
 
+h2 {
+  font-family: 'playfair_bolditalic';
+  font-size: 36px;
+  font-style: italic;
+  padding: 30px;
+}
 
-/*h2::last-word {
-  font-family: "playfairbold";
-}*/
+.bold-heading {
+  font-family: 'playfair_bold';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: bold;
+}
 
 h3 {
-  font-family: "playfairbold";
+  font-family: "playfair_bold";
   text-align: center;
   color: red;
 }
@@ -140,6 +149,7 @@ a {
 a:hover {
   color: #b64036;
 }
+
 /* Header */
 .alohalogo {
   float: left;
@@ -184,17 +194,14 @@ a:hover {
   color: #ffffff;
 }
 
-.handcraftedstyles h2 {
-
 .handcraftedstyles p {
-  color: #969696
+  color: #969696;
 }
 
 .products li {
   list-style: none;
   margin: 0 auto;
-  color: #969696
-
+  color: #969696;
 }
 
 .category {
@@ -202,21 +209,19 @@ a:hover {
 }
 /* Signup for Updates */
 .signup {
-
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url("../images/wave-bkgd.jpg");
+  background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url('../images/wave-bkgd.jpg');
   background-size: cover;
   background-position: 50% 100%;
   height: 200px;
   padding: 20px;
 }
 
-.signup h2 {
+/*.signup h2 {
   text-align: center;
   font-family: "playfair_bolditalic";
   color: white;
   font-size: 36px;
-}
+} */
 
 .signup p {
   color: white;
@@ -238,9 +243,12 @@ a:hover {
   display: inline-block;
 }
 
+.hide-text {
+  display: none;
+}
 
-/* Breakpoints */
-@media screen and (min-width: 480px) {
+/* Breakpoints
+@media screen and (min-width: 600px) {
   .products li {
     list-style: none;
     display: inline-block;
@@ -248,19 +256,21 @@ a:hover {
     float: left;
   }
 
-  .footer p {
+  .footer {
     display: inline-block;
+    float: left;
   }
+
   .footer li {
     list-style: none;
-/*    margin: 0 auto; */
-
+    float: right;
+    display: inline-block;
     text-align: right;
     display: block;
     clear: both;
   }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1240px) {
 body {
   font-size: 16px;
-}
+} */
