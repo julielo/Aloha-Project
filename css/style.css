@@ -150,6 +150,10 @@ a:hover {
   color: #b64036;
 }
 
+.container {
+  width: 1240px;
+}
+
 /* Header */
 .alohalogo {
   float: left;
@@ -175,10 +179,6 @@ a:hover {
   height: 550px;
   /*clear: both; */
 }
-/*
-.container {
-  width: 1240px;
-} */
 
 .newcollection {
   position: relative; top: 50%;
@@ -232,14 +232,38 @@ a:hover {
 }
 
 /*** footer ***/
- .footer {
+footer {
   text-align: center;
-  padding: 10px;
+  font-family: 'playfair_regular', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  padding: 40px;
   background-color: #242424;
-  color: white;
+  color: #ffffff;
 }
 
-.footer li {
+/*.site-info {
+  font-family: 'ralewaylight';
+  font-weight: light;
+  font-style: normal;
+  color: #ffffff;
+} */
+
+.contact-info {
+  padding: 15px 0px 15px 0px; /* top | right | bottom | left */
+}
+
+.address {
+  color: #928479;
+  padding: 10px 0px 10px 0px;
+}
+
+.social-media i {
+  padding: 20px 10px 20px 10px;
+}
+
+.social-media li {
   display: inline-block;
 }
 
