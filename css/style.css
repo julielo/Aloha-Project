@@ -66,7 +66,7 @@
 }
 
 @font-face {
-    font-family: 'ralewaymedium';
+    font-family: 'raleway_bold';
     src: url('fonts/raleway-medium.eot');
     src: url('fonts/raleway-medium.eot?#iefix') format('embedded-opentype'),
          url('fonts/raleway-medium.woff2') format('woff2'),
@@ -77,7 +77,7 @@
 }
 
 @font-face {
-    font-family: 'ralewaymedium_italic';
+    font-family: 'raleway_bolditalic';
     src: url('fonts/raleway-mediumitalic.eot');
     src: url('fonts/raleway-mediumitalic.eot?#iefix') format('embedded-opentype'),
          url('fonts/raleway-mediumitalic.woff2') format('woff2'),
@@ -89,41 +89,39 @@
 
 /*** Global ***/
 body {
-  font-family: "ralewaylight";
+  font-family: "ralewaylight", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
   text-align: center;
   color: #2d2d2d;
-/*  font-size: 14px; */
+  font-size: 14px;
 }
-
 
 h1{
   display:none;
 }
 
 h2 {
-  font-family: 'playfair_bolditalic';
-  font-size: 36px;
+  font-family: 'playfair_italic', sans-serif;
+  font-size: 38px;
+  font-weight: light;
   font-style: italic;
-  padding: 30px;
+  padding: 60px 0 20px 0;
 }
 
 .bold-heading {
-  font-family: 'playfair_bold';
-  font-size: 36px;
+  font-family: 'playfair_bold', sans-serif;
+  font-size: 38px;
   font-style: normal;
   font-weight: bold;
 }
 
 h3 {
-  font-family: "playfair_bold";
+  font-family: "playfair_regular", sans-serif;
+  font-size: 24px;
   text-align: center;
-  color: red;
+  color: #e2574c;
 }
-
-/*li {
-  list-style: none;
-  margin: 0 auto;
-} */
 
 /* General */
 .verticalcentre {
@@ -143,7 +141,7 @@ h3 {
 }
 
 a {
-  color: #e2574c;
+  color: #ffffff;
 }
 
 a:hover {
@@ -181,51 +179,65 @@ a:hover {
 }
 
 .newcollection {
-  position: relative; top: 50%;
+  position: relative; top: 45%;
+  font-family: 'raleway_bold', sans-serif;
+  font-weight: bold;
+  font-style: normal;
   font-size: 20px;
-/*  font-variant-caps: small-caps; */
+  padding: 10px;
   text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
   color: #ffffff;
 }
 
 .season {
-  position: relative; top: 50%;
-  font-size: 36px;
+  position: relative; top: 45%;
+  font-family: 'playfair_regular', sans-serif;
+  font-size: 64px;
   color: #ffffff;
+  text-shadow: 1px 1px 2px black;
 }
 
-.handcraftedstyles p {
-  color: #969696;
+.description {
+  font-size: 18px;
+  line-height: 36px;
+  padding: 5px 0 60px 0;
+}
+
+.products {
+  margin-bottom: 50px;
 }
 
 .products li {
   list-style: none;
   margin: 0 auto;
+}
+
+.products-category {
+  font-family: 'railway_bold', sans-serif;
+  font-size: 12px;
+  font-height: 24px;
+  color: #969696;
+  text-transform: uppercase;
+}
+
+.products-price {
+  font-family: 'railway_bold', sans-serif;
+  font-size: 16px;
+  font-height: 32px;
   color: #969696;
 }
 
-.category {
-  text-transform: uppercase;
-}
 /* Signup for Updates */
 .signup {
   background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url('../images/wave-bkgd.jpg');
   background-size: cover;
   background-position: 50% 100%;
-  height: 200px;
-  padding: 20px;
+/*  height: 200px; */
+  margin-bottom: 10px;
+  color: #ffffff;
 }
 
-/*.signup h2 {
-  text-align: center;
-  font-family: "playfair_bolditalic";
-  color: white;
-  font-size: 36px;
-} */
-
-.signup p {
-  color: white;
-}
 .signup-form {
   border-radius: 5px;
   margin: 10px;
@@ -242,13 +254,6 @@ footer {
   background-color: #242424;
   color: #ffffff;
 }
-
-/*.site-info {
-  font-family: 'ralewaylight';
-  font-weight: light;
-  font-style: normal;
-  color: #ffffff;
-} */
 
 .contact-info {
   padding: 15px 0px 15px 0px; /* top | right | bottom | left */
