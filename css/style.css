@@ -239,19 +239,24 @@ a:hover {
 }
 
 .signup-form {
+  width: 90%;
+  display: block;
+}
+
+input[type="email"] {
   border-radius: 20px;
   font-size: 14px;
-  width: 445px;
+  width: 50%;
   padding: 14px;
   margin: 10px;
-  color: #ffffff;
+  color: #969696;
   margin: 0 auto;
   border: 0;
   position: relative;
-  bottom: 5px;
+  bottom: 45px;
 }
 
-.signup-button {
+input[type="submit"] {
   border-radius: 20px;
   font-size: 16px;
   width: 121px;
@@ -260,10 +265,11 @@ a:hover {
   text-align: center;
   color: #ffffff;
   position: relative;
-  bottom: 46px;
-  left: 163px;
+  bottom: 45px;
+  left: -127px;
   border: 0;
 }
+
 /*** footer ***/
 footer {
   text-align: center;
@@ -298,7 +304,7 @@ footer {
 }
 
 /* Breakpoints */
-@media screen and (min-width: 600px) {
+/*@media screen and (min-width: 600px) {
   .products li {
     list-style: none;
     display: inline-block;
@@ -320,7 +326,7 @@ footer {
     clear: both;
   }
 
-/* @media screen and (min-width: 1240px) {
+@media screen and (min-width: 1240px) {
 body {
   font-size: 16px;
-} */
+}
