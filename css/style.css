@@ -202,6 +202,7 @@ a:hover {
   font-size: 18px;
   line-height: 36px;
   padding: 5px 0 60px 0;
+  text-align: center;
 }
 
 .products {
@@ -239,10 +240,32 @@ a:hover {
 }
 
 .signup-form {
-  border-radius: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+  width: 445px;
+  padding: 14px;
   margin: 10px;
+  color: white;
+
+  border: 0;
+  position: relative;
+  bottom: 5px;
 }
 
+.signup-button {
+  border-radius: 20px;
+  font-size: 16px;
+  width: 121px;
+  padding: 10px;
+  margin-bottom: 75px;
+  background-color: #e2574c;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  bottom: 5px;
+  left: -153px;
+  border: 0;
+}
 /*** footer ***/
 footer {
   text-align: center;
@@ -276,7 +299,7 @@ footer {
   display: none;
 }
 
-/* Breakpoints
+/* Breakpoints */
 @media screen and (min-width: 600px) {
   .products li {
     list-style: none;
@@ -299,7 +322,7 @@ footer {
     clear: both;
   }
 
-@media screen and (min-width: 1240px) {
+/* @media screen and (min-width: 1240px) {
 body {
   font-size: 16px;
 } */
