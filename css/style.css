@@ -103,22 +103,22 @@ h1{
 
 h2 {
   font-family: 'playfair_italic', sans-serif;
-  font-size: 38px;
+  font-size: 2.71rem; /* 38/14 */
   font-weight: light;
   font-style: italic;
-  padding: 60px 0 20px 0;
+  padding: 4.28rem 0 1.42rem 0; /* 60/14 0 20/14 0 */
 }
 
 .bold-heading {
   font-family: 'playfair_bold', sans-serif;
-  font-size: 38px;
+  font-size: 2.71rem; /* 38/14 */
   font-style: normal;
   font-weight: bold;
 }
 
 h3 {
   font-family: "playfair_regular", sans-serif;
-  font-size: 24px;
+  font-size: 1.71rem; /* 24/14 */
   text-align: center;
   color: #e2574c;
 }
@@ -137,7 +137,7 @@ h3 {
 }
 
 .greyline {
-	border-bottom: 2px solid #d7d7d7;
+	border-bottom: 0.14rem solid #d7d7d7; /* 2/14 */
 }
 
 a {
@@ -155,16 +155,16 @@ a:hover {
 /* Header */
 .alohalogo {
   float: left;
-  width: 25%;
-  min-width: 125px;
-  padding: 10px;
+  width: 15%;
+  min-width: 8.92rem; /* 125/14 */
+  padding: 0.71rem; /* 10/14 */
 }
 
 .shoppingcart {
   float: right;
-  width: 12%;
-  min-width: 50px;
-  padding: 10px;
+  width: 6%;
+  min-width: 3.57rem; /* 50/14 */
+  padding: 0.71rem; /* 10/14 */
 }
 
 /* Banner */
@@ -175,8 +175,8 @@ a:hover {
     url("../images/flower-bkgd.jpg");
   background-size: contain, contain, cover;
   /*  background-position: left 495px bottom -95px, 195px; */
-  background-position: 45%, left 50% bottom -95px, 45%;
-  height: 550px;
+  background-position: 45%, left 50% bottom -6.78rem, 45%; /* 95/14 */
+  height: 39.28rem; /* 550/14 */
   /*clear: both; */
 }
 
@@ -185,30 +185,30 @@ a:hover {
   font-family: 'raleway_bold', sans-serif;
   font-weight: bold;
   font-style: normal;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 1.42rem; /* 20/14 */
+  padding: 0.71rem; /* 10/14 */
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 0.07rem 0.07rem 0.14rem black; /* 1/14 1/14 2/14 */
   color: #ffffff;
 }
 
 .season {
   position: relative; top: 45%;
   font-family: 'playfair_regular', sans-serif;
-  font-size: 64px;
+  font-size: 2.5rem; /* 35/14 */
   color: #ffffff;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 0.07rem 0.07rem 0.14rem black; /* 1/14 1/14 2/14 */
 }
 
 .description {
-  font-size: 18px;
-  line-height: 36px;
-  padding: 5px 0 60px 0;
+  font-size: 1.28rem; /* 18/14 */
+  line-height: 2.57rem; /* 36/14 */
+  padding: 0.35rem 0 4.28rem 0; /* 5/14 0 60/14 0 */
   text-align: center;
 }
 
 .products {
-  margin-bottom: 50px;
+  margin-bottom: 3.57rem; /* 50/14 */
 }
 
 .products li {
@@ -218,23 +218,23 @@ a:hover {
 
 .products-category {
   font-family: 'railway_bold', sans-serif;
-  font-size: 12px;
-  font-height: 24px;
+  font-size: 0.85rem; /* 12/14 */
+  font-height: 1.71rem; /* 24/14 */
   color: #969696;
   text-transform: uppercase;
 }
 
 .products-price {
   font-family: 'railway_bold', sans-serif;
-  font-size: 16px;
-  font-height: 32px;
+  font-size: 1.14rem; /* 16/14 */
+  font-height: 2.28rem; /* 32/14 */
   color: #969696;
 }
 
 /* Signup for Updates */
 .signup {
   background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url('../images/wave-bkgd.jpg') no-repeat center bottom;
-  margin-bottom: 10px;
+  margin-bottom: 0.71rem; /* 10/14 */
   color: #ffffff;
 }
 
@@ -245,28 +245,28 @@ a:hover {
 
 input[type="email"] {
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 1rem; /* 14/14 */
   width: 50%;
-  padding: 14px;
-  margin: 10px;
+  padding: 1rem; /* 14/14 */
+  margin: 0.71rem; /* 10/14 */
   color: #969696;
   margin: 0 auto;
   border: 0;
   position: relative;
-  bottom: 45px;
+  bottom: 3.21rem; /* 45/14 */
 }
 
 input[type="submit"] {
-  border-radius: 20px;
-  font-size: 16px;
-  width: 121px;
-  padding: 10px;
+  border-radius: 1.42rem; /* 20/14 */
+  font-size: 1.14rem; /* 16/14 */
+  width: 8.64rem; /* 121/14 */
+  padding: 0.71rem; /* 10/14 */
   background-color: #e2574c;
   text-align: center;
   color: #ffffff;
   position: relative;
-  bottom: 45px;
-  left: -127px;
+  bottom: 3.21rem; /* 45/14 */
+  left: -9.07rem; /* 127/14 */
   border: 0;
 }
 
@@ -276,23 +276,23 @@ footer {
   font-family: 'playfair_regular', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  padding: 40px;
+  font-size: 1.14rem; /* 16/14 */
+  padding: 2.85rem; /* 40/14 */
   background-color: #242424;
   color: #ffffff;
 }
 
 .contact-info {
-  padding: 15px 0px 15px 0px; /* top | right | bottom | left */
+  padding: 1.07rem 0px 1.07rem 0px; /* top (15/14)| right | bottom (15/14) | left */
 }
 
 .address {
   color: #928479;
-  padding: 10px 0px 10px 0px;
+  padding: 0.71rem 0 0.71rem 0; /* 10/14 0 10/14 0 */
 }
 
 .social-media i {
-  padding: 20px 10px 20px 10px;
+  padding: 1.42rem 0.71rem 1.42rem 0.71rem; /* 20/14 10/14 20/14 10/14 */
 }
 
 .social-media li {
