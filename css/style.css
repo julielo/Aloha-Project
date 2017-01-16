@@ -156,12 +156,14 @@ a:hover {
 .alohalogo {
   float: left;
   width: 25%;
+  min-width: 125px;
   padding: 10px;
 }
 
 .shoppingcart {
   float: right;
   width: 12%;
+  min-width: 50px;
   padding: 10px;
 }
 
