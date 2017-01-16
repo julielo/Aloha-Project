@@ -231,10 +231,7 @@ a:hover {
 
 /* Signup for Updates */
 .signup {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url('../images/wave-bkgd.jpg');
-  background-size: cover;
-  background-position: 50% 100%;
-/*  height: 200px; */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url('../images/wave-bkgd.jpg') no-repeat center bottom;
   margin-bottom: 10px;
   color: #ffffff;
 }
@@ -245,8 +242,8 @@ a:hover {
   width: 445px;
   padding: 14px;
   margin: 10px;
-  color: white;
-
+  color: #ffffff;
+  margin: 0 auto;
   border: 0;
   position: relative;
   bottom: 5px;
@@ -257,13 +254,12 @@ a:hover {
   font-size: 16px;
   width: 121px;
   padding: 10px;
-  margin-bottom: 75px;
   background-color: #e2574c;
   text-align: center;
   color: #ffffff;
   position: relative;
-  bottom: 5px;
-  left: -153px;
+  bottom: 46px;
+  left: 163px;
   border: 0;
 }
 /*** footer ***/
