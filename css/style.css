@@ -139,6 +139,7 @@ h4 {
 
 a {
   color: #ffffff;
+  text-decoration: none;
 }
 
 a:hover {
@@ -205,11 +206,13 @@ a:hover {
 
 .products {
   margin-bottom: 3.57rem; /* 50/14 */
+  width: 100%;
 }
 
 .products li {
   list-style: none;
   margin: 0 auto;
+  width: 95%;
 }
 
 .products-category {
@@ -231,6 +234,7 @@ a:hover {
   background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url('../images/wave-bkgd.jpg') no-repeat center bottom;
   margin-bottom: 0.71rem; /* 10/14 */
   color: #ffffff;
+  width: 100%;
 }
 
 .signup-form {
@@ -267,11 +271,11 @@ input[type="submit"] {
 
 /* Footer */
 footer {
-
+  text-align: center;
   font-family: "playfair_regular", sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 1.14rem; /* 16/14 */
+  font-size: 1rem; /* 16/14 */
   padding: 2.85rem; /* 40/14 */
   background-color: #242424;
   color: #ffffff;
@@ -283,60 +287,72 @@ footer {
 
 .address {
   color: #928479;
-  padding: 0.71rem 0 0.71rem 0; /* 10/14 0 10/14 0 */
+/*  padding: 0.71rem 0 0.71rem 0; /* 10/14 0 10/14 0 */
+  padding: 1rem;
 }
 
-.social-media i {
-  padding: 1.42rem 0.71rem 1.42rem 0.71rem; /* 20/14 10/14 20/14 10/14 */
+ .social-media i {
+  /*padding: 1.42rem 0.71rem 1.42rem 0.71rem; /* 20/14 10/14 20/14 10/14 */
+  /*padding: 0.1rem; */
+ }
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem 0 1rem 0;
 }
 
-.social-media li {
-  display: inline;
-}
+/*.social-media ul {
+  padding: .5rem;
+}*/
 
 .hide-text {
-  display: none;
+  visibility: hidden;
 }
 
 /* Breakpoints */
 @media screen and (min-width: 600px) {
-body{
-  font-size: 16px;
-}
-.products li {
-  display: inline-block;
-  float: left;
-  background-color: white;
+  body{
+    font-size: 16px;
+  }
+
+  .products li {
+    display: inline-block;
+    float: left;
+    background-color: white;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-left {
+    text-align: left;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-media {
+    min-width: 1.5rem;
+  }
+
+  .social-media li {
+    display: flex;
+    justify-content: flex-start; /* aligns the social media icons to the left*/
+  }
+
+  .hide-text {
+    visibility: visible;
+  }
 }
 
-footer {
-}
-
-.site-info {
-  float: left;
-}
-
-.contact-info {
-  float: left;
-
-  text-align: left;
-}
-
-.address {
-  float: left;
-}
-
-.social-media li {
-  display: block;
-  float: right;
-}
-
-.hide-text {
-  display: block;
-}
-}
 @media screen and (min-width: 1240px) {
-body {
-  font-size: 16px;
-}
+  body {
+    font-size: 16px;
+  }
 }
