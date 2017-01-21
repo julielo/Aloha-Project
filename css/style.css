@@ -1,6 +1,6 @@
 /*** Fonts arearm ***/
   @font-face {
-    font-family: "playfair_bold";
+    font-family: "Playfair Display - Bold";
     src: url("../fonts/playfair-bold.eot");
     src: url("../fonts/playfair-bold.eot?#iefix") format("embedded-opentype"),
          url("../fonts/playfair-bold.woff2") format("woff2"),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: "playfair_bolditalic";
+    font-family: "Playfair Display - Bold Italic";
     src: url("../fonts/playfair-bolditalic.eot");
     src: url("../fonts/playfair-bolditalic.eot?#iefix") format("embedded-opentype"),
          url("../fonts/playfair-bolditalic.woff2") format("woff2"),
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-    font-family: "playfair_italic";
+    font-family: "Playfair Display - Italic";
     src: url("../fonts/playfair-italic.eot");
     src: url("../fonts/playfair-italic.eot?#iefix") format("embedded-opentype"),
          url("../fonts/playfair-italic.woff2") format("woff2"),
@@ -33,7 +33,7 @@
 }
 
 @font-face {
-    font-family: "playfair_regular";
+    font-family: "Playfair Display - Regular";
     src: url("../fonts/playfair-regular.eot");
     src: url("../fonts/playfair-regular.eot?#iefix") format("embedded-opentype"),
          url("../fonts/playfair-regular.woff2") format("woff2"),
@@ -44,27 +44,29 @@
 }
 
 @font-face {
-    font-family: "ralewaylight";
+    font-family: "Raleway - Regular";
     src: url("../fonts/raleway-light.eot");
     src: url("../fonts/raleway-light.eot?#iefix") format("embedded-opentype"),
          url("../fonts/raleway-light.woff2") format("woff2"),
          url("../fonts/raleway-light.ttf") format("truetype"),
          url("../fonts/raleway-light.svg#ralewaylight") format("svg");
+    font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "ralewaylight_italic";
+    font-family: "Raleway - Italic";
     src: url("../fonts/raleway-lightitalic.eot");
     src: url("../fonts/raleway-lightitalic.eot?#iefix") format("embedded-opentype"),
          url("../fonts/raleway-lightitalic.woff2") format("woff2"),
          url("../fonts/raleway-lightitalic.ttf") format("truetype"),
          url("../fonts/raleway-lightitalic.svg#ralewaylight_italic") format("svg");
+    font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "raleway_bold";
+    font-family: "Raleway - Bold";
     src: url("../fonts/raleway-medium.eot");
     src: url("../fonts/raleway-medium.eot?#iefix") format("embedded-opentype"),
          url("../fonts/raleway-medium.woff2") format("woff2"),
@@ -75,7 +77,7 @@
 }
 
 @font-face {
-    font-family: "raleway_bolditalic";
+    font-family: "Raleway - Bold Italic";
     src: url("../fonts/raleway-mediumitalic.eot");
     src: url("../fonts/raleway-mediumitalic.eot?#iefix") format("embedded-opentype"),
          url("../fonts/raleway-mediumitalic.woff2") format("woff2"),
@@ -87,8 +89,8 @@
 
 /* Global */
 body {
-  font-family: "ralewaylight", sans-serif;
-  font-weight: lighter;
+  font-family: "Raleway - Regular", sans-serif;
+  font-weight: normal;
   font-style: normal;
   text-align: center;
   color: #2d2d2d;
@@ -100,41 +102,37 @@ h1{
 }
 
 h2 {
-  font-family: "playfair_italic", sans-serif;
-  font-size: 2.71rem; /* 38/14 */
-  font-weight: lighter;
+  font-family: "Playfair Display - Italic", serif;
+  font-size: 2.38rem; /* 38/16 */
+  font-weight: normal;
   font-style: italic;
-  padding: 4.28rem 0 1.42rem 0; /* 60/14 0 20/14 0 */
+  padding: 3.75rem 0 1.25rem 0; /* 60/16 0 20/16 0 */
 }
 
 .bold-heading {
-  font-family: "playfair_bold", sans-serif;
-  font-size: 2.71rem; /* 38/14 */
+  font-family: "Playfair Display - Bold", serif;
+  font-size: 2.38rem; /* 38/16 */
   font-style: normal;
   font-weight: bold;
 }
 
 h3 {
-  font-family: "playfair_regular", sans-serif;
-  font-size: 1.71rem; /* 24/14 */
+  font-family: "Playfair Display - Regular", serif;
+  font-size: 1.5rem; /* 24/16 */
   text-align: center;
   color: #e2574c;
 }
 
-h4 {
-  display: none; /* used h4 tag for sections that required a h2-h6 tag, flagged by the HTML validator */
+.hide-tag {
+  display: none; /* for sections that required a h2-h6 tag, flagged by the HTML validator */
 }
 
 /* General */
 .clearfix:before,
-.clear:after {
+.clearfix:after {
   content: " ";
   display: table;
   clear:both;
-}
-
-.greyline {
-	border-bottom: 0.14rem solid #d7d7d7; /* 2/14 */
 }
 
 a {
@@ -147,18 +145,18 @@ a:hover {
 }
 
 .container {
-  width: 1240px;
+  width: 77.5rem; /* 1240/16 */
 }
 
 /* Header */
-.alohalogo {
+.aloha-logo {
   float: left;
   width: 15%;
   min-width: 8.92rem; /* 125/14 */
   padding: 0.71rem; /* 10/14 */
 }
 
-.shoppingcart {
+.shopping-cart {
   float: right;
   width: 6%;
   min-width: 3.57rem; /* 50/14 */
@@ -177,64 +175,68 @@ a:hover {
   clear: both;
 }
 
-.newcollection {
+.new-collection {
   position: relative; top: 45%;
-  font-family: "raleway_bold", sans-serif;
+  font-family: "Raleway - Bold", sans-serif;
   font-weight: bold;
   font-style: normal;
-  font-size: 1.42rem; /* 20/14 */
-  padding: 0.71rem; /* 10/14 */
+  font-size: 1.25rem; /* 20/16 */
+  padding: 0.62rem; /* 10/16 */
   text-transform: uppercase;
-  text-shadow: 0.07rem 0.07rem 0.14rem black; /* 1/14 1/14 2/14 */
+  text-shadow: 0.06rem 0.06rem 0.12rem black; /* 1/16 1/16 2/16 */
   color: #ffffff;
 }
 
 .season {
   position: relative; top: 45%;
-  font-family: "playfair_regular", sans-serif;
-  font-size: 2.5rem; /* 35/14 */
+  font-family: "Playfair Display - Regular", serif;
+  font-size: 4rem; /* 64/16 */
   color: #ffffff;
-  text-shadow: 0.07rem 0.07rem 0.14rem black; /* 1/14 1/14 2/14 */
+  text-shadow: 0.07rem 0.07rem 0.14rem black; /* 1/16 1/16 2/16 */
 }
 
 .description {
-  font-size: 1.28rem; /* 18/14 */
-  line-height: 2.57rem; /* 36/14 */
-  padding: 0.35rem 0 4.28rem 0; /* 5/14 0 60/14 0 */
+  font-size: 1.125rem; /* 18/16 */
+  line-height: 2.25rem; /* 36/16 */
+  padding: 0.31rem 0 3.75rem 0; /* 5/16 0 60/16 0 */
+  max-width: 77.5rem; /* 1240/16 */
   text-align: center;
 }
 
 .products {
   margin-bottom: 3.57rem; /* 50/14 */
   width: 100%;
+  border-top: 0.14rem solid #d7d7d7;;
 }
 
 .products li {
   list-style: none;
   margin: 0 auto;
-  width: 95%;
+  width: 100%;
 }
 
 .products-category {
-  font-family: "railway_bold", sans-serif;
-  font-size: 0.85rem; /* 12/14 */
+  font-family: "Raleway - Bold", sans-serif;
+  font-size: 0.625rem; /* 10/16 */
+  line-height: 1.3125rem; /* 21/16 */
   color: #969696;
   background-color: #ffffff;
   text-transform: uppercase;
 }
 
 .products-price {
-  font-family: "railway_bold", sans-serif;
-  font-size: 1.14rem; /* 16/14 */
+  font-family: "Raleway - Bold", sans-serif;
+  font-size: 1rem; /* 16/16 */
+  line-height: 2rem; /* 32/16 */
   color: #969696;
 }
 
 /* Signup for Updates */
 .signup {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url('../images/wave-bkgd.jpg') no-repeat center bottom;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%),
+   url('../images/wave-bkgd.jpg') no-repeat bottom;
   margin-bottom: 0.71rem; /* 10/14 */
   color: #ffffff;
-  width: 100%;
 }
 
 .signup-form {
@@ -272,10 +274,11 @@ input[type="submit"] {
 /* Footer */
 footer {
   text-align: center;
-  font-family: "playfair_regular", sans-serif;
+  font-family: "Playfair Display - Regular", serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 1rem; /* 16/14 */
+  font-size: 1rem; /* 14/14 */
+  /*line-height:  /* 21/14 */
   padding: 2.85rem; /* 40/14 */
   background-color: #242424;
   color: #ffffff;
@@ -291,30 +294,32 @@ footer {
   padding: 1rem;
 }
 
- .social-media i {
+.social-media li {
   /*padding: 1.42rem 0.71rem 1.42rem 0.71rem; /* 20/14 10/14 20/14 10/14 */
-  /*padding: 0.1rem; */
+  /*padding: 0 2rem 0 2rem;*/
+  /*margin: 1rem;*/
  }
 
 .social-media {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 1rem 0 1rem 0;
+  /*padding: 1rem 0 1rem 0;*/
+  /*margin: 1rem;*/
 }
 
-/*.social-media ul {
-  padding: .5rem;
-}*/
-
 .hide-text {
-  visibility: hidden;
+  display:none;
 }
 
 /* Breakpoints */
 @media screen and (min-width: 600px) {
   body{
     font-size: 16px;
+  }
+
+  .new-collection {
+    font-size: /* 20/16 */
   }
 
   .products li {
@@ -335,19 +340,21 @@ footer {
   .social-media {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
   }
 
-  .social-media {
-    min-width: 1.5rem;
-  }
+  /*.social-media {
+    min-width: 2.5rem;
+  }*/
 
   .social-media li {
     display: flex;
     justify-content: flex-start; /* aligns the social media icons to the left*/
+    padding: 0;
   }
 
   .hide-text {
-    visibility: visible;
+    display: inline;
   }
 }
 
