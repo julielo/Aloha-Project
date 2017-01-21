@@ -145,7 +145,9 @@ a:hover {
 }
 
 .container {
-  width: 77.5rem; /* 1240/16 */
+  max-width: 77.5rem; /* 1240/16 */
+  padding: 1rem;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -173,6 +175,8 @@ a:hover {
   background-position: 45%, left 50% bottom -6.78rem, 45%; /* 95/14 */
   height: 39.28rem; /* 550/14 */
   clear: both;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .new-collection {
@@ -198,9 +202,9 @@ a:hover {
 .description {
   font-size: 1.125rem; /* 18/16 */
   line-height: 2.25rem; /* 36/16 */
-  padding: 0.31rem 0 3.75rem 0; /* 5/16 0 60/16 0 */
+  padding: 1rem 0 3rem 0; /* 5/16 0 60/16 0 */
   max-width: 77.5rem; /* 1240/16 */
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .products {
@@ -237,24 +241,43 @@ a:hover {
    url('../images/wave-bkgd.jpg') no-repeat bottom;
   margin-bottom: 0.71rem; /* 10/14 */
   color: #ffffff;
+  width: 100%;
+  padding: 1rem;
+  /*margin: 0 auto;*/
 }
 
+/*.test {
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 400px;
+  height: 55px;
+}*/
+
 .signup-form {
-  width: 90%;
-  display: block;
+  /*width: 90%;
+  display: block;*/
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: 400px;
+  height: 55px;
+  bottom: 1rem;
+  position: relative;
+  margin: 0 auto;
 }
 
 input[type="email"] {
-  border-radius: 20px;
+  border-radius: 25px;
   font-size: 1rem; /* 14/14 */
-  width: 50%;
+  width: 51%;
   padding: 1rem; /* 14/14 */
-  margin: 0.71rem; /* 10/14 */
+  /*margin: 0.71rem; /* 10/14 */
   color: #969696;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  right: 5rem;
   border: 0;
   position: relative;
-  bottom: 3.21rem; /* 45/14 */
+  bottom: 0rem; /* 45/14 */
+  line-height: 1.5;
 }
 
 input[type="submit"] {
@@ -265,10 +288,16 @@ input[type="submit"] {
   background-color: #e2574c;
   text-align: center;
   color: #ffffff;
-  position: relative;
-  bottom: 3.21rem; /* 45/14 */
-  left: -9.07rem; /* 127/14 */
+  position: absolute;
+  /*bottom: 3.21rem; /* 45/14 */
+  /*left: -9.07rem; /* 127/14 */
   border: 0;
+  left: 16.1rem;
+  bottom: 0.35rem;
+}
+
+input:focus {
+    outline:none;
 }
 
 /* Footer */
@@ -282,6 +311,7 @@ footer {
   padding: 2.85rem; /* 40/14 */
   background-color: #242424;
   color: #ffffff;
+  width: 100%;
 }
 
 .contact-info {
@@ -311,18 +341,18 @@ footer {
 .hide-text {
   display:none;
 }
-
+/*
 /* Breakpoints */
-@media screen and (min-width: 600px) {
+/*@media screen and (min-width: 600px) {
   body{
     font-size: 16px;
   }
 
   .new-collection {
-    font-size: /* 20/16 */
+    /*font-size: /* 20/16 */
   }
 
-  .products li {
+  /*.products li {
     display: inline-block;
     float: left;
     background-color: white;
@@ -341,25 +371,26 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-  }
+  }*/
 
   /*.social-media {
     min-width: 2.5rem;
   }*/
 
-  .social-media li {
-    display: flex;
-    justify-content: flex-start; /* aligns the social media icons to the left*/
-    padding: 0;
+  /*.social-media li {
+    display: flex;*/
+    /*justify-content: flex-start; /* aligns the social media icons to the left*/*/
+    /*padding: 0;
   }
 
   .hide-text {
     display: inline;
   }
-}
+}*/
 
-@media screen and (min-width: 1240px) {
+/*@media screen and (min-width: 1240px) {
   body {
     font-size: 16px;
   }
 }
+*/
