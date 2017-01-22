@@ -243,8 +243,8 @@ header {
   margin-bottom: 0.71rem; /* 10/14 */
   color: #ffffff;
   width: 100%;
-  padding: 1rem;
-  /*margin: 0 auto;*/
+  padding: 0.5rem;
+  margin: 0 auto;
 }
 
 .signup-form {
@@ -327,9 +327,9 @@ footer {
 .hide-text {
   display:none;
 }
-/*
+
 /* Breakpoints */
-/*@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   body{
     font-size: 16px;
   }
@@ -338,14 +338,17 @@ footer {
     /*font-size: /* 20/16 */
   }
 
-  /*.products li {
-    display: inline-block;
-    float: left;
+.products li {
+    /*display: inline-block;
+    float: left;*/
+    display: flex;
+    align-self: flex-start;
     background-color: white;
   }
 
   footer {
     display: flex;
+    align-items:flex-start;
     justify-content: space-between;
   }
 
@@ -356,27 +359,25 @@ footer {
   .social-media {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-  }*/
-
-  /*.social-media {
-    min-width: 2.5rem;
-  }*/
-
-  /*.social-media li {
-    display: flex;*/
-    /*justify-content: flex-start; /* aligns the social media icons to the left*/*/
-    /*padding: 0;
   }
+
+  .social-media {
+    min-width: 2.5rem;
+  }
+
+  /*.social-media ul {
+    display: flex;
+    flex-direction: column;
+    /*padding: 0;
+  } */
 
   .hide-text {
     display: inline;
   }
-}*/
+}
 
-/*@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1240px) {
   body {
     font-size: 16px;
   }
 }
-*/
