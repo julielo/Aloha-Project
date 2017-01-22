@@ -128,12 +128,12 @@ h3 {
 }
 
 /* General */
-.clearfix:before,
+/*.clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
   clear:both;
-}
+}*/
 
 a {
   color: #ffffff;
@@ -151,18 +151,26 @@ a:hover {
 }
 
 /* Header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo-wrapper {
+  align-self: flex-start;
+}
+
 .aloha-logo {
-  float: left;
-  width: 15%;
-  min-width: 8.92rem; /* 125/14 */
-  padding: 0.71rem; /* 10/14 */
+  width: 9.68rem; /* 155/16 */
+}
+
+.cart-wrapper {
+  align-self: flex-end;
 }
 
 .shopping-cart {
-  float: right;
-  width: 6%;
-  min-width: 3.57rem; /* 50/14 */
-  padding: 0.71rem; /* 10/14 */
+  width: 3.75rem; /* 60/16 */
 }
 
 /* Banner */
@@ -246,16 +254,7 @@ a:hover {
   /*margin: 0 auto;*/
 }
 
-/*.test {
-  border-radius: 20px;
-  background-color: #ffffff;
-  width: 400px;
-  height: 55px;
-}*/
-
 .signup-form {
-  /*width: 90%;
-  display: block;*/
   border-radius: 25px;
   background-color: #ffffff;
   width: 400px;
@@ -324,18 +323,9 @@ footer {
   padding: 1rem;
 }
 
-.social-media li {
-  /*padding: 1.42rem 0.71rem 1.42rem 0.71rem; /* 20/14 10/14 20/14 10/14 */
-  /*padding: 0 2rem 0 2rem;*/
-  /*margin: 1rem;*/
- }
-
 .social-media {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  /*padding: 1rem 0 1rem 0;*/
-  /*margin: 1rem;*/
 }
 
 .hide-text {
