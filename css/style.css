@@ -128,13 +128,6 @@ h3 {
 }
 
 /* General */
-/*.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-  clear:both;
-}*/
-
 a {
   color: #ffffff;
   text-decoration: none;
@@ -319,13 +312,16 @@ footer {
 
 .address {
   color: #928479;
-/*  padding: 0.71rem 0 0.71rem 0; /* 10/14 0 10/14 0 */
-  padding: 1rem;
+  padding: 0.71rem 0 0.71rem 0; /* 10/14 0 10/14 0 */
 }
 
 .social-media {
   display: flex;
   justify-content: center;
+}
+
+.fa {
+  padding: 0.5rem;
 }
 
 .hide-text {
