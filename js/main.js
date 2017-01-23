@@ -19,3 +19,5 @@ $('.main-carousel').flickity({
   cellAlign: 'left',
   contain: true
 });
+
+/* Email validation for Update Section */
