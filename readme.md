@@ -15,6 +15,7 @@ Guidelines are based on the supplied design comps and design specs.
 * CSS Validator (https://jigsaw.w3.org/css-validator/#validate_by_upload)
 * Font Squirrel (https://www.fontsquirrel.com/)
 * Font Awesome (http://fontawesome.io/)
+* JQuery plugins
 
 # Personal Learnings
 I have learned many things with this first project. The above listed technologies are just one aspect. Creating a website can be quite complex. Building out the design on paper (or other medium) is very helpful in planning out the code required to build a site. I also learned specificity in regards to CSS is truly an art and requires further practice. Understanding and applying my knowledge of HTML and CSS is still a work in progress, and I hope to improve over time.

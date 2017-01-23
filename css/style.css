@@ -152,11 +152,12 @@ a:hover {
 .logo-wrapper {
   display: flex;
   align-self: flex-start;
+  order: 1;
 }
 
 .aloha-logo {
   width: 120px;
-  /*width: 9.68rem; /* 155/16 */*/
+  /*width: 9.68rem; /* 155/16 */
 }
 
 .cart-wrapper {
@@ -179,6 +180,7 @@ a:hover {
   font-family: "Raleway - Bold";
   font-weight: bold;
   font-style: normal;
+  order: 3;
 }
 
 .navigation{
@@ -237,6 +239,88 @@ padding: 0.5rem;
   max-width: 77.5rem; /* 1240/16 */
 }
 
+/* Products Category */
+.products-category {
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+}
+
+.mens-category, .trends-category, .glasses-category, .sale-category, .bags-category, .womens-category {
+  font-family: "Raleway - Bold";
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1.375rem; /* 22/16 */
+}
+
+.mens-category {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+    url("../images/mens-category.jpg") no-repeat center;
+    background-size: cover, cover;
+  box-sizing: border-box;
+  flex: 2 0 100%;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.trends-category {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+    url("../images/trends-category.jpg") no-repeat center;
+    background-size: cover, cover;
+  flex: 1 0 50%;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 5rem 0;
+}
+
+.glasses-category {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+    url("../images/glasses-category.jpg") no-repeat center;
+    background-size: cover, cover;
+  flex: 1 0 50%;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 5rem 0;
+}
+
+.sale-category {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+    url("../images/sale-category.jpg") no-repeat center;
+    background-size: cover, cover;
+  flex: 1 0 50%;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 5rem 0;
+  align-self: flex-end;
+}
+
+.bags-category {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+    url("../images/bags-category.jpg") no-repeat center;
+    background-size: cover, cover;
+  flex: 1 0 50%;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 5rem 0;
+}
+
+.womens-category {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+    url("../images/womens-category.jpg") no-repeat center;
+    background-size: cover, cover;
+  box-sizing: border-box;
+  flex: 2 0 100%;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+/* Products */
 .products {
   margin-bottom: 3.57rem; /* 50/14 */
   width: 100%;
@@ -271,7 +355,6 @@ padding: 0.5rem;
    url('../images/wave-bkgd.jpg') no-repeat bottom;
   margin-bottom: 0.71rem; /* 10/14 */
   color: #ffffff;
-  /*width: 100%;*/
   padding: 0.5rem;
   margin: 0 auto;
 }
