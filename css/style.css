@@ -1,4 +1,4 @@
-/*** Fonts arearm ***/
+/*** Fonts area ***/
   @font-face {
     font-family: "Playfair Display - Bold";
     src: url("../fonts/playfair-bold.eot");
@@ -187,9 +187,9 @@ a:hover {
   font-family: "Raleway - Bold";
   font-weight: bold;
   font-style: normal;
-  -webkit-box-ordinal-group: 4;
+  /*-webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
-          order: 3;
+          order: 3;*/
 }
 
 .navigation{
@@ -497,6 +497,10 @@ footer a {
 @media screen and (min-width: 600px) {
   body{
     font-size: 16px;
+  }
+
+  .navigation-menu {
+    order: -1;
   }
 
   .products li {
