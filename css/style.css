@@ -152,9 +152,6 @@ a:hover {
   display: flex;
   -ms-flex-item-align: start;
   align-self: flex-start;
-  -webkit-box-ordinal-group: 2;
-  -ms-flex-order: 1;
-  order: 1;
 }
 
 .aloha-logo {
@@ -187,9 +184,6 @@ a:hover {
   font-family: "Raleway - Bold";
   font-weight: bold;
   font-style: normal;
-  /*-webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;*/
 }
 
 .navigation{
