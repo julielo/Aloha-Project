@@ -93,6 +93,7 @@ body {
   font-weight: normal;
   font-style: normal;
   text-align: center;
+  margin: 0 auto;
   color: #2d2d2d;
   font-size: 14px;
 }
@@ -148,49 +149,51 @@ a:hover {
 
 
 /* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .logo-wrapper {
-  /*display: flex;
-  flex: 0 1 50%;*/
-}
-
-.aloha-logo {
   display: flex;
-  width: 9.68rem; /* 155/16 */
   align-self: flex-start;
 }
 
+.aloha-logo {
+  width: 120px;
+  /*width: 9.68rem; /* 155/16 */*/
+}
+
 .cart-wrapper {
-  display: flex;
-  /*align-self: flex-end;*/
-  flex: 0 1 50%;
+  align-self: flex-end;
+  width: 46px;
 }
 
 .shopping-cart {
-  display: flex;
   align-self: flex-end;
-  width: 3.75rem; /* 60/16 */
+  width: 0.1rem;
 }
 
 /*Navigation Menu*/
-.navigation {
-  /*display: flex;
-  flex-grow: 1;*/
+.navigation-menu {
+  /*margin: auto;*/
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  line-height: 2;
+  font-family: "Raleway - Bold";
+  font-weight: bold;
+  font-style: normal;
+}
+
+.navigation{
+  flex: 0 1 100%;
+}
+.navigation ul{
   border-top: 0.1rem solid #d7d7d7;
   text-transform: uppercase;
   color: #e2574c;
+  text-align: center;
 }
 
-.navigation ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex: 1 0 100%;
+.navigation-list li{
+display: inline-block;
+padding: 0.5rem;
 }
 
 /* Banner */
@@ -232,7 +235,6 @@ header {
   line-height: 2.25rem; /* 36/16 */
   padding: 1rem 0 3rem 0; /* 5/16 0 60/16 0 */
   max-width: 77.5rem; /* 1240/16 */
-  /*text-align: center;*/
 }
 
 .products {
