@@ -324,20 +324,20 @@ padding: 0.5rem;
   padding: 5rem 0;
 }
 
-/* Products */
-.products {
+/* Featured Products */
+/*.products {
   margin-bottom: 3.57rem; /* 50/14 */
-  width: 100%;
+/*  width: 100%;
   border-top: 0.14rem solid #d7d7d7;
-}
+}*/
 
-.products li {
+/*.products li {
   list-style: none;
   margin: 0 auto;
   width: 100%;
-}
+}*/
 
-.products-category {
+.featured-products-category {
   font-family: "Raleway - Bold", sans-serif;
   font-size: 0.625rem; /* 10/16 */
   line-height: 1.3125rem; /* 21/16 */
@@ -346,7 +346,7 @@ padding: 0.5rem;
   text-transform: uppercase;
 }
 
-.products-price {
+.featured-products-price {
   font-family: "Raleway - Bold", sans-serif;
   font-size: 1rem; /* 16/16 */
   line-height: 2rem; /* 32/16 */

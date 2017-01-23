@@ -12,3 +12,10 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     }
   }
 });
+
+/* Flickity plugin */
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
+});
