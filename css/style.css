@@ -468,9 +468,6 @@ input[type="submit"] {
   bottom: 0.35rem;
 }
 
-input:focus {
-    outline:none;
-}
 
 /* Footer */
 footer {
