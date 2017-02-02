@@ -1,6 +1,6 @@
 /*** Fonts area ***/
   @font-face {
-    font-family: "Playfair Display - Bold";
+    font-family: "Playfair Display";
     src: url("../fonts/playfair-bold.eot");
     src: url("../fonts/playfair-bold.eot?#iefix") format("embedded-opentype"),
          url("../fonts/playfair-bold.woff2") format("woff2"),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: "Playfair Display - Bold Italic";
+    font-family: "Playfair Display";
     src: url("../fonts/playfair-bolditalic.eot");
     src: url("../fonts/playfair-bolditalic.eot?#iefix") format("embedded-opentype"),
          url("../fonts/playfair-bolditalic.woff2") format("woff2"),
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-    font-family: "Playfair Display - Italic";
+    font-family: "Playfair Display";
     src: url("../fonts/playfair-italic.eot");
     src: url("../fonts/playfair-italic.eot?#iefix") format("embedded-opentype"),
          url("../fonts/playfair-italic.woff2") format("woff2"),
@@ -33,7 +33,7 @@
 }
 
 @font-face {
-    font-family: "Playfair Display - Regular";
+    font-family: "Playfair Display";
     src: url("../fonts/playfair-regular.eot");
     src: url("../fonts/playfair-regular.eot?#iefix") format("embedded-opentype"),
          url("../fonts/playfair-regular.woff2") format("woff2"),
@@ -44,7 +44,7 @@
 }
 
 @font-face {
-    font-family: "Raleway - Regular";
+    font-family: "Raleway";
     src: url("../fonts/raleway-light.eot");
     src: url("../fonts/raleway-light.eot?#iefix") format("embedded-opentype"),
          url("../fonts/raleway-light.woff2") format("woff2"),
@@ -55,7 +55,7 @@
 }
 
 @font-face {
-    font-family: "Raleway - Italic";
+    font-family: "Raleway";
     src: url("../fonts/raleway-lightitalic.eot");
     src: url("../fonts/raleway-lightitalic.eot?#iefix") format("embedded-opentype"),
          url("../fonts/raleway-lightitalic.woff2") format("woff2"),
@@ -66,7 +66,7 @@
 }
 
 @font-face {
-    font-family: "Raleway - Bold";
+    font-family: "Raleway";
     src: url("../fonts/raleway-medium.eot");
     src: url("../fonts/raleway-medium.eot?#iefix") format("embedded-opentype"),
          url("../fonts/raleway-medium.woff2") format("woff2"),
@@ -77,7 +77,7 @@
 }
 
 @font-face {
-    font-family: "Raleway - Bold Italic";
+    font-family: "Raleway";
     src: url("../fonts/raleway-mediumitalic.eot");
     src: url("../fonts/raleway-mediumitalic.eot?#iefix") format("embedded-opentype"),
          url("../fonts/raleway-mediumitalic.woff2") format("woff2"),
@@ -88,10 +88,9 @@
 }
 
 /* Global */
+
 body {
-  font-family: "Raleway - Regular", sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   margin: 0 auto;
   color: #2d2d2d;
@@ -103,22 +102,18 @@ h1{
 }
 
 h2 {
-  font-family: "Playfair Display - Italic", serif;
+  font-family: "Playfair Display", serif;
   font-size: 2.38rem; /* 38/16 */
-  font-weight: normal;
-  font-style: italic;
   padding: 3.75rem 0 1.25rem 0; /* 60/16 0 20/16 0 */
 }
 
 .bold-heading {
-  font-family: "Playfair Display - Bold", serif;
+  font-family: "Playfair Display", serif;
   font-size: 2.38rem; /* 38/16 */
-  font-style: normal;
-  font-weight: bold;
 }
 
 h3 {
-  font-family: "Playfair Display - Regular", serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.5rem; /* 24/16 */
   text-align: center;
   color: #e2574c;
@@ -228,9 +223,7 @@ padding: 0.5rem;
 
 .new-collection {
   position: relative; top: 45%;
-  font-family: "Raleway - Bold", sans-serif;
-  font-weight: bold;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-size: 1.25rem; /* 20/16 */
   padding: 0.62rem; /* 10/16 */
   text-transform: uppercase;
@@ -240,7 +233,7 @@ padding: 0.5rem;
 
 .season {
   position: relative; top: 45%;
-  font-family: "Playfair Display - Regular", serif;
+  font-family: "Playfair Display", serif;
   font-size: 4rem; /* 64/16 */
   color: #ffffff;
   text-shadow: 0.07rem 0.07rem 0.14rem black; /* 1/16 1/16 2/16 */
@@ -266,9 +259,7 @@ padding: 0.5rem;
 }
 
 .products-text {
-  font-family: "Raleway - Bold";
-  font-weight: bold;
-  font-style: normal;
+  font-family: "Raleway";
   color: #ffffff;
   text-transform: uppercase;
   font-size: 1.375rem; /* 22/16 */
@@ -376,7 +367,7 @@ padding: 0.5rem;
 }
 
 .featured-products-category {
-  font-family: "Raleway - Bold", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 0.625rem; /* 10/16 */
   line-height: 1.3125rem; /* 21/16 */
   color: #969696;
@@ -385,7 +376,7 @@ padding: 0.5rem;
 }
 
 .featured-products-price {
-  font-family: "Raleway - Bold", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1rem; /* 16/16 */
   line-height: 2rem; /* 32/16 */
   color: #969696;
@@ -447,9 +438,7 @@ input:focus {
 /* Footer */
 footer {
   text-align: center;
-  font-family: "Playfair Display - Regular", serif;
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Playfair Display", serif;
   font-size: 1rem; /* 14/14 */
   padding: 2.85rem; /* 40/14 */
   background-color: #242424;
