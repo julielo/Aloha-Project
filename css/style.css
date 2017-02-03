@@ -126,6 +126,34 @@ validator */
 }
 
 /* General */
+.screen-reader-text {
+   clip: rect(1px, 1px, 1px, 1px);
+   position: absolute !important;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+}
+.screen-reader-text:focus {
+   /* functinonal styles */
+   clip: auto !important;
+   display: block;
+   height: auto;
+   left: 5px;
+   top: 5px;
+   width: auto;
+   z-index: 100000;
+   /* decorative styles */
+   background-color: #f1f1f1;
+   color: #e2574c;
+   border-radius: 3px;
+   box-shadow: 1px 1px 6px rgba(100, 100, 100, 0.8);
+   font-weight: bold;
+   line-height: normal;
+   outline: none;
+   padding: 1rem;
+   text-decoration: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -429,9 +457,6 @@ input[type="submit"] {
   bottom: 0.35rem;
 }
 
-input:focus {
-    outline:none;
-}
 
 /* Footer */
 footer {
