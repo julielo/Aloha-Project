@@ -176,9 +176,7 @@ a:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   line-height: 2;
-  font-family: "Raleway - Bold";
-  font-weight: bold;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
 }
 
 .navigation{
