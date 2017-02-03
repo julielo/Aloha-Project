@@ -257,7 +257,7 @@ padding: 0.5rem;
 }
 
 .products-text {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 1.375rem; /* 22/16 */
