@@ -141,48 +141,24 @@ a:hover {
 }
 
 /* Header */
-.logo-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.header-container {
   display: flex;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
+  justify-content: space-between;
+  height: 52px;
 }
 
 .aloha-logo {
   width: 120px;
 }
 
-.cart-wrapper {
-  -ms-flex-item-align: end;
-  align-self: flex-end;
+.cart-logo {
   width: 46px;
 }
 
-.shopping-cart {
-  -ms-flex-item-align: end;
-  align-self: flex-end;
-  width: 0.1rem;
-}
-
-/*Navigation Menu*/
-.navigation-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  line-height: 2;
-  font-family: "Raleway", sans-serif;
-}
-
+/*Menu*/
 .navigation{
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 100%;
-          flex: 0 1 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation a {
@@ -190,15 +166,19 @@ color: #e2574c;
 }
 
 .navigation ul{
-  border-top: 0.1rem solid #d7d7d7;
   text-transform: uppercase;
   color: #e2574c;
-  text-align: center;
+  justify-content: center;
 }
 
 .navigation-list li{
-display: inline-block;
-padding: 0.5rem;
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.horiz-line {
+  border-top: 0.1rem solid #d7d7d7;
+  padding: 1px;
 }
 
 /* Banner */
@@ -480,9 +460,20 @@ footer a {
     font-size: 16px;
   }
 
-  .navigation-menu {
-    order: -1;
-  }
+.horiz-line {
+  display: none;
+}
+
+.header-container {
+  position: relative;
+  padding: 13px;
+}
+
+.navigation {
+  position: absolute;
+  top: 24px;
+  left: 32%;
+}
 
   .products li {
     display: -webkit-box;
@@ -529,5 +520,11 @@ footer a {
 @media screen and (min-width: 1240px) {
   body {
     font-size: 16px;
+  }
+
+  .navigation {
+    position: absolute;
+    top: 24px;
+    left: 41%;
   }
 }
