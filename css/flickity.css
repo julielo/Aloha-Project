@@ -128,3 +128,24 @@ http://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
+
+/*Carousel*/
+.carousel-cell {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .carousel-cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  main-carousel {
+    width: 25%;
+  }
+
+  .carousel-cell {
+    width: 25%;
+  }
+}
