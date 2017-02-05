@@ -17,8 +17,10 @@ $(function () {
   /* Flickity plugin */
   $('.main-carousel').flickity({
     // options
-    cellAlign: 'left',
-    contain: true
+    cellAlign: 'center',
+    contain: true,
+    prevNextButtons: false,
+    autoPlay: true
   });
 
   /* Email validation for Update Section */
