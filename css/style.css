@@ -96,9 +96,9 @@ body {
   font-size: 14px;
 }
 
-h1{
+/*h1{
   display:none; /* h1 tag required for every page created */
-}
+/*}*/
 
 h2 {
   font-family: "Playfair Display", serif;
@@ -136,6 +136,17 @@ a:hover {
   max-width: 1240px; /* 1240/16 */
   padding: 0 2%;
   margin: 0 auto;
+}
+
+.screen-reader {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
 
 /* Header */
