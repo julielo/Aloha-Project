@@ -96,10 +96,6 @@ body {
   font-size: 14px;
 }
 
-/*h1{
-  display:none; /* h1 tag required for every page created */
-/*}*/
-
 h2 {
   font-family: "Playfair Display", serif;
   font-style: italic;
@@ -121,13 +117,11 @@ h3 {
   color: #e2574c;
 }
 
-/* for sections that required a h2-h6 tag, flagged by the HTML
-validator */
-.hide-tag {
-  display: none;
+/* General */
+a {
+  text-decoration: none;
 }
 
-/* General */
 a:hover {
   color: #b64036;
 }
