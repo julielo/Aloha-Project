@@ -17,7 +17,7 @@ $(function () {
   /* Flickity plugin */
   $('.main-carousel').flickity({
     // options
-    cellAlign: 'center',
+    cellAlign: 'left',
     contain: true,
     prevNextButtons: false,
     autoPlay: true
