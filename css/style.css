@@ -380,9 +380,7 @@ a:hover {
    url('../images/wave-bkgd.jpg') no-repeat bottom;
   background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%),
    url('../images/wave-bkgd.jpg') no-repeat bottom;
-  margin-bottom: 0.71rem; /* 10/14 */
   color: #ffffff;
-  padding: 0.5rem;
   margin: 0 auto;
   margin-bottom: 0.5rem;
 }
