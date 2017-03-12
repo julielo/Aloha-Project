@@ -100,7 +100,7 @@ h2 {
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-size: 2.1rem; /* 38/16 */
-  padding: 3.75rem 0 1.25rem 0; /* 60/16 0 20/16 0 */
+  padding: 4.5rem 0 0.3rem 0; /* 60/16 0 20/16 0 */
 }
 
 .bold-heading {
@@ -228,7 +228,7 @@ a:hover {
 .description {
   font-size: 1rem; /* 18/16 */
   line-height: 2; /* 36/16 */
-  padding: 1rem 0.5rem 3.5rem 0.5rem; /* 5/16 0 60/16 0 */
+  padding: 1rem 0.5rem 3.75rem 0.5rem; /* 5/16 0 60/16 0 */
   max-width: 41rem; /* 1240/16*/
   text-align: center;
   margin: 0 auto;
