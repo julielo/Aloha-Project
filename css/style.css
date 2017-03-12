@@ -200,20 +200,10 @@ a:hover {
 
 /* Banner */
 .hero {
-  background:
-    -webkit-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-    url("../images/banner-girl.png") no-repeat,
-    url("../images/flower-bkgd.jpg");
-  background:
-    linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-    url("../images/banner-girl.png") no-repeat,
-    url("../images/flower-bkgd.jpg");
-  background-size: contain, contain, cover;
-  background-position: 45%, left 50% bottom -6.78rem, 45%; /* 95/14 */
-  height: 39.28rem; /* 550/14 */
-  clear: both;
-  width: 100%;
-  margin: 0 auto;
+  background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url(../images/banner-girl.png) no-repeat center 60px, url(../images/flower-bkgd.jpg) repeat-x center top;
+  background-size: cover, 150px 369px, cover;
+  height: 400px;
+  position: relative;
 }
 
 .new-collection {
@@ -590,6 +580,12 @@ footer a {
   .navigation-list li {
     font-size: 1rem;
     line-height: 2rem;
+  }
+
+  .hero {
+    background-size: cover, 250px 615px, contain;
+    height: 550px;
+    position: relative;
   }
 
   .season {
