@@ -207,22 +207,26 @@ a:hover {
 }
 
 .new-collection {
-  position: relative; top: 45%;
+  position: relative; 
+  top: 34%;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  font-size: 1.25rem; /* 20/16 */
+  font-size: 1.1rem; /* 20/16 */
   padding: 0.62rem; /* 10/16 */
   text-transform: uppercase;
   text-shadow: 0.06rem 0.06rem 0.12rem black; /* 1/16 1/16 2/16 */
-  color: #ffffff;
+  color: #fff;
 }
 
 .season {
-  position: relative; top: 45%;
+  position: relative; 
+  top: 37%;
+  left: 18%;
+  max-width: 50%;
   font-family: "Playfair Display", serif;
-  font-size: 3rem; /* 64/16 */
-  color: #ffffff;
-  text-shadow: 0.07rem 0.07rem 0.14rem black; /* 1/16 1/16 2/16 */
+  font-size: 2.24rem; /* 64/16 */
+  color: #fff;
+  text-shadow: 0.07rem 0.07rem 0.14rem #000; /* 1/16 1/16 2/16 */
 }
 
 .description {
@@ -506,6 +510,18 @@ footer a {
     left: 32%;
   }
 
+  .new-collection {
+    top: 31%;
+    font-size: 1.3rem;
+  }
+
+  .season {
+    top: 33%;
+    left: 20.5%;
+    font-size: 3rem;
+    max-width: 57%;
+  }
+
   .description {
     font-size: 1.15rem;
   }
@@ -618,8 +634,14 @@ footer a {
     position: relative;
   }
 
+  .new-collection {
+    top: 38.5%;
+  }
+
   .season {
     font-size: 4rem;
+    top: 41%;
+    left: 25%;
   }
 
   .products-text {
