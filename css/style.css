@@ -99,7 +99,7 @@ body {
 h2 {
   font-family: "Playfair Display", serif;
   font-style: italic;
-  font-size: 2.06rem; /* 38/16 */
+  font-size: 2.1rem; /* 38/16 */
   padding: 3.75rem 0 1.25rem 0; /* 60/16 0 20/16 0 */
 }
 
@@ -107,7 +107,7 @@ h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-style: normal;
-  font-size: 2.38rem; /* 38/16 */
+  font-size: 2.1rem; /* 38/16 */
 }
 
 h3 {
