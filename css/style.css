@@ -727,4 +727,8 @@ footer {
   input[type="submit"] {
     left: 20.5rem;
   }
+
+  footer {
+    padding: 65px 93px 45px 25px;
+  }
 }
