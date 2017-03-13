@@ -715,4 +715,16 @@ footer {
             flex: 1 0 25%;
     height: 312px;
   }
+
+  .signup-form {
+    width: 452px;
+  }
+
+  input[type="email"] {
+    right: 8rem;
+  }
+
+  input[type="submit"] {
+    left: 20.5rem;
+  }
 }
