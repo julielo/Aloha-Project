@@ -495,9 +495,9 @@ input[type="submit"] {
 footer {
   text-align: center;
   font-family: "Playfair Display", serif;
-  font-size: 1rem; /* 14/14 */
-  line-height: 1.5rem;
-  padding: 2.8rem; /* 40/14 */
+  font-size: 0.9rem; /* 14/14 */
+  line-height: 1.35rem;
+  padding: 3.6rem 0 2.8rem 0;
   background-color: #242424;
   color: #ffffff;
 }
@@ -513,12 +513,12 @@ footer a {
 
 .address {
   color: #928479;
-  padding: 0.71rem 0 0.71rem 0; /* 10/14 0 10/14 0 */
+  padding-bottom: 1.5rem;
 }
 
 .social-media {
   font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -526,6 +526,7 @@ footer a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 1rem;
 }
 
 .fa {
