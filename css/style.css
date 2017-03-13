@@ -222,7 +222,7 @@ a:hover {
   position: relative; 
   top: 37%;
   left: 18%;
-  max-width: 50%;
+  max-width: 63%;
   font-family: "Playfair Display", serif;
   font-size: 2.24rem; /* 64/16 */
   color: #fff;
@@ -688,7 +688,7 @@ footer a {
   .season {
     font-size: 4rem;
     top: 41%;
-    left: 25%;
+    left: 21%;
   }
 
   .products-text {
