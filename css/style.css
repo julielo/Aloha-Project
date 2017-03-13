@@ -610,13 +610,18 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 65px 45px 45px 12px;
 }
 
 .footer-left {
+  font-size: 1rem;
+  line-height: 1.5;
   text-align: left;
 }
 
   .social-media {
+    font-size: 1rem;
+    line-height: 2;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -650,16 +655,30 @@ footer {
     font-size: 16px;
   }
 
+  .header-container {
+    padding: 16px 0 29px 0;
+  }
+
+  .aloha-logo {
+    width: 160px;
+    height: 62px;
+  }
   .navigation {
     position: absolute;
     top: 24px;
-    left: 41%;
+    left: 34%;
   }
 
   .navigation-list li {
     font-size: 1rem;
     line-height: 2rem;
+    padding: 0.8rem 1rem;
   }
+
+  .cart-logo {
+    width: 62px;
+    padding-top: 0px;
+}
 
   .hero {
     background-size: cover, 250px 615px, contain;
