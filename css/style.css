@@ -152,6 +152,7 @@ a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 52px;
+  padding: 11px 0 10px 0;
 }
 
 .aloha-logo {
@@ -159,7 +160,8 @@ a:hover {
 }
 
 .cart-logo {
-  width: 46px;
+  width: 50px;
+  padding-top: 3px;
 }
 
 /*Menu*/
@@ -187,7 +189,7 @@ a:hover {
 
 .navigation-list li{
   display: inline-block;
-  padding: 0.5rem;
+  padding: 0.4rem 0.9rem;
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1.75rem;
@@ -195,7 +197,7 @@ a:hover {
 
 .horiz-line {
   border-top: 0.1rem solid #d7d7d7;
-  padding: 1px;
+  /*padding: 1px;*/
 }
 
 /* Banner */
