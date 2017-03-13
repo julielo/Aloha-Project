@@ -138,10 +138,6 @@ http://flickity.metafizzy.co
   width: 100%;
 }
 
-img {
-  /*width: 50%;*/
-}
-
 @media screen and (min-width: 600px) {
   .carousel-cell {
     width: 50%;
@@ -151,15 +147,9 @@ img {
   img {
     width: 75%;
   }
-
-
 }
 
 @media screen and (min-width: 1240px) {
-  main-carousel {
-    width: 25%;
-  }
-
   .carousel-cell {
     width: 25%;
   }
