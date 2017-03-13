@@ -557,13 +557,17 @@ footer a {
 
   .header-container {
     position: relative;
-    padding: 13px;
+    padding: 13px 0 17px 0;
   }
 
   .navigation {
     position: absolute;
     top: 24px;
-    left: 32%;
+    left: 25%;
+  }
+
+  .navigation-list li {
+    padding: 0.4rem 0.5rem;
   }
 
   .new-collection {
